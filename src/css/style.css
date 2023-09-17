@@ -76,3 +76,35 @@ body {
   padding: 2px 5px;
   font-size: 0.9rem;
 }
+
+.input-container {
+  margin: 100px 0px;
+}
+
+.input {
+  width: 1050px;
+  height: 50px;
+
+  border: none;
+  border-bottom: 2px solid lightgrey;
+
+  font-size: 30px;
+  text-align: center;
+}
+
+.error-message {
+  display: none;
+  margin-top: 10px;
+
+  color: #cc0033;
+  font-size: 30px;
+  text-align: center;
+}
+
+.error .input {
+  border-bottom: 2px solid #cc0033;
+}
+
+.error .error-message {
+  display: block;
+}
