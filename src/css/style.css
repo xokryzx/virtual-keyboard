@@ -4,6 +4,7 @@ html[theme="dark-mode"] {
 
 * {
   user-select: none;
+  outline: none;
 }
 
 body {
@@ -63,4 +64,15 @@ body {
 
 .switch__input:checked + .switch__slider::after {
   transform: translateX(26px);
+}
+
+.select-box {
+  margin-left: 60px;
+}
+
+#font {
+  width: 200px;
+  height: 100%;
+  padding: 2px 5px;
+  font-size: 0.9rem;
 }
