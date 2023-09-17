@@ -108,3 +108,81 @@ body {
 .error .error-message {
   display: block;
 }
+
+.keyboard-container {
+  width: 1050px;
+  border-radius: 4px;
+
+  background-color: gray;
+  color: gray;
+}
+
+.row {
+  display: flex;
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  border-radius: 4px;
+
+  background-color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.key:hover {
+  background-color: lightgray;
+}
+
+.key.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.value {
+  width: 100%;
+  text-align: center;
+}
+
+.key--backspace {
+  width: 130px;
+}
+
+.key--tab {
+  width: 95px;
+}
+
+.key--backslach {
+  width: 95px;
+}
+
+.key--capslock {
+  width: 110px;
+}
+
+.key--enter {
+  width: 150px;
+}
+
+.key--shiftleft {
+  width: 145px;
+}
+
+.key--shiftright {
+  width: 185px;
+}
+
+.key--function {
+  width: 80px;
+}
+
+.key--space {
+  width: 420px;
+}
